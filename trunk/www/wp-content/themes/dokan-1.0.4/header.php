@@ -27,6 +27,7 @@ if ( !function_exists( 'WC' ) ) {
 </head>
 
 <body <?php body_class(); ?>>
+<?php include_once("analyticstracking.php") ?>
     <div id="page" class="hfeed site">
         <?php do_action( 'before' ); ?>
 
